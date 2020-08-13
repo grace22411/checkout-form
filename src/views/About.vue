@@ -1,5 +1,23 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    
+    <PaymentConfirmation />
+
   </div>
 </template>
+
+<script>
+import PaymentConfirmation from '@/components/PaymentConfirmation.vue'
+
+export default {
+  name : "About",
+  components : {
+    PaymentConfirmation
+  }
+  
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>
