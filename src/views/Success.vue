@@ -10,7 +10,7 @@
 import PaymentConfirmation from '@/components/PaymentConfirmation.vue'
 
 export default {
-  name : "About",
+  name : "Success",
   components : {
     PaymentConfirmation
   }

@@ -130,8 +130,8 @@
     <div class="container submit">
       <div class="row">
         <div class="col-md-12">
-          <router-link to="/about">
-            <button>Pay $840</button>
+          <router-link to="/success">
+            <button v-bind:disabled="info.fullName.length < 10">Pay $840</button>
           </router-link>
         </div>
       </div>
@@ -202,7 +202,7 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style lang="scss" scoped>
 .form {
   width: 40%;
@@ -210,7 +210,7 @@ export default {
   .flipping-animation {
     margin: auto;
     height  : 120px;
-      width:65%;
+      width:75%;
   }
 
   .front-card {
@@ -396,7 +396,7 @@ export default {
     .flipping-animation {
       margin: auto;
       height  : 65px;
-        width:75%;
+        width:70%;
     }
     .front-card{
       width:300px;
